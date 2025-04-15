@@ -11,7 +11,12 @@
 		2789338C2DA8AF5200726EA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789338B2DA8AF5200726EA2 /* ContentView.swift */; };
 		2789338E2DA8AF5600726EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2789338D2DA8AF5600726EA2 /* Assets.xcassets */; };
 		278933912DA8AF5600726EA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278933902DA8AF5600726EA2 /* Preview Assets.xcassets */; };
+		27BFDF9D2DAE1F75000153B6 /* ForcePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFDF9C2DAE1F75000153B6 /* ForcePassword.swift */; };
+		27BFDF9F2DAECFC0000153B6 /* ValidateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFDF9E2DAECFC0000153B6 /* ValidateAccount.swift */; };
+		27BFDFA12DAEDE56000153B6 /* PasswordGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFDFA02DAEDE56000153B6 /* PasswordGame.swift */; };
 		27D134122DADF5E300770CF6 /* ValidateEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D134112DADF5E300770CF6 /* ValidateEmail.swift */; };
+		27D134142DADFD3800770CF6 /* ValidateAcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D134132DADFD3800770CF6 /* ValidateAcess.swift */; };
+		27D134162DAE068300770CF6 /* CountNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D134152DAE068300770CF6 /* CountNumbers.swift */; };
 		27D4B10D2DAAFDE70099DB1C /* TimerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4B10C2DAAFDE70099DB1C /* TimerStart.swift */; };
 		27D4B10F2DAB0D820099DB1C /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4B10E2DAB0D820099DB1C /* Countdown.swift */; };
 		27D4B1112DAB158A0099DB1C /* TextFieldTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4B1102DAB158A0099DB1C /* TextFieldTimer.swift */; };
@@ -24,7 +29,12 @@
 		2789338B2DA8AF5200726EA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2789338D2DA8AF5600726EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278933902DA8AF5600726EA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27BFDF9C2DAE1F75000153B6 /* ForcePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcePassword.swift; sourceTree = "<group>"; };
+		27BFDF9E2DAECFC0000153B6 /* ValidateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAccount.swift; sourceTree = "<group>"; };
+		27BFDFA02DAEDE56000153B6 /* PasswordGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGame.swift; sourceTree = "<group>"; };
 		27D134112DADF5E300770CF6 /* ValidateEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateEmail.swift; sourceTree = "<group>"; };
+		27D134132DADFD3800770CF6 /* ValidateAcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAcess.swift; sourceTree = "<group>"; };
+		27D134152DAE068300770CF6 /* CountNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNumbers.swift; sourceTree = "<group>"; };
 		27D4B10C2DAAFDE70099DB1C /* TimerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerStart.swift; sourceTree = "<group>"; };
 		27D4B10E2DAB0D820099DB1C /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
 		27D4B1102DAB158A0099DB1C /* TextFieldTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTimer.swift; sourceTree = "<group>"; };
@@ -61,6 +71,11 @@
 		278933882DA8AF5200726EA2 /* studings */ = {
 			isa = PBXGroup;
 			children = (
+				27BFDF9E2DAECFC0000153B6 /* ValidateAccount.swift */,
+				27BFDF9C2DAE1F75000153B6 /* ForcePassword.swift */,
+				27D134152DAE068300770CF6 /* CountNumbers.swift */,
+				27D134132DADFD3800770CF6 /* ValidateAcess.swift */,
+				27D134112DADF5E300770CF6 /* ValidateEmail.swift */,
 				27D4B1122DAB38A40099DB1C /* ListPersonInvite.swift */,
 				27D4B1102DAB158A0099DB1C /* TextFieldTimer.swift */,
 				27D4B10E2DAB0D820099DB1C /* Countdown.swift */,
@@ -69,7 +84,7 @@
 				2789338B2DA8AF5200726EA2 /* ContentView.swift */,
 				2789338D2DA8AF5600726EA2 /* Assets.xcassets */,
 				2789338F2DA8AF5600726EA2 /* Preview Content */,
-				27D134112DADF5E300770CF6 /* ValidateEmail.swift */,
+				27BFDFA02DAEDE56000153B6 /* PasswordGame.swift */,
 			);
 			path = studings;
 			sourceTree = "<group>";
@@ -154,11 +169,16 @@
 			files = (
 				2789338C2DA8AF5200726EA2 /* ContentView.swift in Sources */,
 				2789338A2DA8AF5200726EA2 /* studingsApp.swift in Sources */,
+				27BFDFA12DAEDE56000153B6 /* PasswordGame.swift in Sources */,
+				27BFDF9D2DAE1F75000153B6 /* ForcePassword.swift in Sources */,
 				27D134122DADF5E300770CF6 /* ValidateEmail.swift in Sources */,
 				27D4B1112DAB158A0099DB1C /* TextFieldTimer.swift in Sources */,
 				27D4B10D2DAAFDE70099DB1C /* TimerStart.swift in Sources */,
+				27BFDF9F2DAECFC0000153B6 /* ValidateAccount.swift in Sources */,
 				27D4B10F2DAB0D820099DB1C /* Countdown.swift in Sources */,
 				27D4B1132DAB38A40099DB1C /* ListPersonInvite.swift in Sources */,
+				27D134142DADFD3800770CF6 /* ValidateAcess.swift in Sources */,
+				27D134162DAE068300770CF6 /* CountNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
