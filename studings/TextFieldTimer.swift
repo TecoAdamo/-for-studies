@@ -24,8 +24,13 @@ struct TextFieldTimer: View {
                         RoundedRectangle(cornerRadius: 8)
                             .stroke(Color.black, lineWidth: 1)
                     )
+                
                     .keyboardType(.numberPad)
             
+                
+                
+                
+                
                 
                 Text("Contagem: \(IntFromString)")
                 Button(action: {
